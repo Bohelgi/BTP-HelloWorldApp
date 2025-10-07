@@ -1,0 +1,12 @@
+<mvc:View xmlns:controls="sap.viz.ui5.controls" controllerName="sap.btp.helloworldui5.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <FlexBox direction="Row" alignContent="Stretch" class="sapUiTineMarginBottom" id="Flexbox0">
+                <Text text="Wanna see something funny?" class="sapYiTinyMarginEnd" id="Text0" />
+                <Button xmlns="sap.m" text="Click Me!!!" id="Buttin0" press=".onPress" />
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>
