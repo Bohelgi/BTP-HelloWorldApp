@@ -1,7 +1,7 @@
 <mvc:View xmlns:controls="sap.viz.ui5.controls" controllerName="sap.btp.helloworldui5.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    <Page id="page" title="Bear_said_HelloWorld">
         <content>
             <FlexBox direction="Row" alignContent="Stretch" class="sapUiTineMarginBottom" id="Flexbox0">
                 <Text text="Wanna see something funny?" class="sapYiTinyMarginEnd" id="Text0" />
